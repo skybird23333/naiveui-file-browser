@@ -1,0 +1,29 @@
+{
+    "name": ".",
+    "type": "directory",
+    "full_path": ".",
+    "contents": [
+        {
+            "name": "README.md",
+            "type": "file",
+            "full_path": "/README.md"
+        },
+        {
+            "name": "foo",
+            "type": "directory",
+            "full_path": "./foo",
+            "contents": [
+                {
+                    "name": "test.docx",
+                    "type": "file-word",
+                    "full_path": "./foo/test.docx"
+                },
+                {
+                    "name": "answer.pdf",
+                    "type": "file-pdf",
+                    "full_path": "./foo/answer.pdf"
+                }
+            ]
+        }
+    ]
+}
